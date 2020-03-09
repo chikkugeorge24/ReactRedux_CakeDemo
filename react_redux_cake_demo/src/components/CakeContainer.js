@@ -7,7 +7,6 @@ class CakeContainer extends Component {
     }
     render() {
         const { numOfCakes, buyCake } = this.props;
-        console.log(numOfCakes)
         return (
             <div className="App">
                 <h2> Number of Cakes -- {numOfCakes}</h2>
